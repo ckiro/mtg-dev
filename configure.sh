@@ -1,10 +1,10 @@
 #!/bin/sh
 # download MTG
-wget https://github.com/9seconds/mtg/releases/download/v2.1.6/mtg-2.1.6-darwin-amd64.tar.gz
+wget https://github.com/9seconds/mtg/releases/download/v2.1.6/mtg-2.1.6-linux-amd64.tar.gz
 # decompress
-tar -xzvf mtg-2.1.6-darwin-amd64.tar.gz
+tar -xzvf mtg-2.1.6-linux-amd64.tar.gz
 # cd
-cd mtg-2.1.6-darwin-amd64
+cd mtg-2.1.6-linux-amd64
 # run permission
 chmod u+x mtg
 # run
