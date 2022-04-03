@@ -1,0 +1,13 @@
+{
+	"name": "MTG-DEV",
+	"description": "MTG-DEV",
+	"keywords": ["MTG-DEV"],
+	"env": {
+		"secret": {
+			"description": "secret,use 'head -c 16 /dev/urandom | xxd -ps' to generate",
+			"value": "c0cbmel5a426d9636472pd56f8e11o9d"
+		}
+	},
+	"repository": "https://github.com/xckiro/mtg-dev",
+	"stack": "container"
+}
